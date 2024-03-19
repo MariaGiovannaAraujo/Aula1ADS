@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>A propriedade display</title>
+    <style>
+        p{
+            background-color: #ccc;
+        }
+
+        a{
+            background-color: rgb(202, 184, 231);
+        }
+
+        footer{
+            background-color: beige;
+        }
+
+        button{
+            background-color: greenyellow;
+        }
+        .professores{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.engenharia{
+    display: inline;
+}
+
+.rodape{
+    display: none;
+}
+
+/* inline só ocupa espaço necessário
+block ocupa a linha inteira */ 
+
+
+    </style>
+    </head>
+    <body>
+        <article id="cursos">
+            <p class="engenharia">Engenharia</p>
+            <p class="farmacia">Farmácia</p>
+            <a class="professores" href="#"> Veja a lista de professores aqui </a>
+            <a class="Contato" href="#">Entre em Contato</a>
+            <footer class="rodape">Universidade AprendaJá</footer>
+            <button class="botao">Clique aqui para falar conosco</button>
+            <p>&copy;Todos os direitos reservados</p>
+        </article>
+    </body>
+</html>
